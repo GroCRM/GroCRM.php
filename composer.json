@@ -1,0 +1,25 @@
+{   
+    "name": "grocrm/grocrm",
+    "type": "library",
+    "description": "PHP SDK for Gro CRM REST API",
+    "keywords": ["grocrm", "crm", "maccrm", "erp", "sales", "api", "rest", "client"],
+    "homepage": "https://www.grocrm.com",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+	    {
+		    "name": "Scott Smith",
+		    "email": "scotts@grocrm.com",
+		    "role": "Developer"
+	    }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "GroCRM\\": "src/"
+        }
+    }
+}
